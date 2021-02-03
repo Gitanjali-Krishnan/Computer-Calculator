@@ -4,11 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gitanjali's Online Calculator</title>
-    <link href="Calculator.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/988776c307.js" crossorigin="anonymous"></script>
-    <script src="Calculator.js"></script>
+    <style>
+        h1{
+    color: rgb(0, 255, 191);
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+body{
+    background-color: black;
+}
+h3{
+    color: plum;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+}
+    </style>
 </head>
 <body>
+    <script>
+        var x
+        x=parseInt(prompt("One number:"))   
+        var y=parseInt(prompt("Another number"))
+        var s="Addition: "
+        var q="Subtraction: "
+        var r="Multiplication: "
+        var e="Division: "
+        alert(s + (x+y))
+        alert(q + (x-y))
+        alert(r + (x*y))
+        alert(e + (x/y))
+    </script>
     <h3><i>Reload for more solutions! </i></h3>
     <h1><i class="fas fa-calculator"></i><b><i>  Gitanjali's Online Calculator</i></b></h1>
 </body>
